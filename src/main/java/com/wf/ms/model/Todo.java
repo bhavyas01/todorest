@@ -26,6 +26,8 @@ public class Todo {
 	@Size(min = 5, max = 50, message = "Description should be b/w 5 to 50 characters")
 	private String des;
 	
+	private String res;
+	
 	private Date targetDate;
 	
 	private boolean done;
